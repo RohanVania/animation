@@ -1,0 +1,45 @@
+
+body {
+  background-color: #0d1823;
+  overflow: hidden;
+  color: red
+}
+.app{
+  font-size: 4rem;
+  color: white;
+  margin-block: 3rem;
+  text-align: center;
+}
+
+
+.exampleBody {
+  width: 80vw;
+  margin: auto;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* background-color: red; */
+}
+
+.exampleContainer {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5px;
+}
+
+.example {
+  width: 80%;
+  /* background-color: #0022FF; */
+  stroke: #B937ff;
+  padding: 4%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  stroke-dashoffset: 822;
+
+}
